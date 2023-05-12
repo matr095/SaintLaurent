@@ -42,3 +42,4 @@ class MainMenu:
 			fenetre.blit(fond, (positionX,positionY))
 			fenetre.blit(menuoption, (200,200))
 			pygame.display.flip()
+		pygame.time.Clock().tick(60)

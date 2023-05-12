@@ -61,3 +61,4 @@ while continuer:
 	fenetre.blit(Protagoniste, (protaX,protaY))
 	fenetre.blit(Ennemi1, (Ennemi1X, Ennemi1Y))
 	pygame.display.flip()
+	pygame.time.Clock().tick(60)
